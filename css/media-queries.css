@@ -1,0 +1,79 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .search-icons {
+    width: 45px;
+    position: absolute;
+    right: 45px;
+    top: 0;
+    bottom: 0;
+    background-color: #ff4a52;
+  }
+  .search-icons :hover {
+    background-color: #f16a71;
+  }
+  .search-icons a {
+    color: #ffffff;
+  }
+  .drop-down-icon {
+    width: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #1ec6b6;
+    z-index: 100;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav li {
+    display: inline-block !important;
+  }
+  .drop-down-icon {
+    display: none !important;
+  }
+  .search-icons {
+    right: 0;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .search-icons {
+    width: 100px;
+  }
+  .search-bar {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .search-form {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .newsletter-container {
+    flex-direction: row;
+  }
+  .newsletter-input {
+    flex-direction: row;
+  }
+  .newsletter-btn {
+    width: 117px;
+    height: 52px;
+    padding: 18px 12px;
+    margin-left: 5px;
+  }
+  .newsletter-text {
+    margin-top: 0;
+    margin-right: 10px;
+  }
+}
