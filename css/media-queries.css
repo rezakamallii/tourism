@@ -31,16 +31,18 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+ 
   .nav-logo {
     flex-direction: row;
   }
 
   nav ul {
     display: inline-block !important;
+    padding: 0 120px;
   }
   nav li {
-    /* display: inline-block !important; */
-    margin-right: 35px;
+    display: inline-block !important;
+    padding-right: 35px;
   }
   .drop-down-icon {
     display: none !important;
@@ -56,6 +58,9 @@
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  nav ul {
+        padding: 0 250px;
+  }
   .search-icons {
     width: 100px;
   }

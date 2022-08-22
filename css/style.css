@@ -27,10 +27,6 @@ li {
 li:hover {
   color: #ff4a52;
 }
-ul {
-  padding: 0px;
-  margin: 0px;
-}
 
 .d-flex {
   display: flex;
@@ -73,7 +69,6 @@ nav li {
   font-size: 1.3em;
   margin: 10px 0;
   text-align: left;
-  width: 100%;
 }
 .search-icons {
   justify-content: center;
