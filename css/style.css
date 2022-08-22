@@ -49,6 +49,7 @@ ul {
 .font-15 {
   font-size: 15px !important;
 }
+
 header {
   background-color: #ffffffff;
   justify-content: space-around;
@@ -58,10 +59,10 @@ header {
 
 nav ul {
   display: none;
-  top: 25px;
+  /* top: 25px;
   right: 220px;
   position: relative;
-  padding: 25px 0;
+  padding: 25px 0; */
 }
 
 nav li {
