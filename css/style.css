@@ -33,7 +33,7 @@ ul {
 }
 
 .d-flex {
-  display: flex !important;
+  display: flex;
 }
 .w-100 {
   width: 100% !important;
@@ -56,11 +56,20 @@ header {
   position: relative;
 }
 
-nav li {
+nav ul {
   display: none;
+  top: 25px;
+  right: 220px;
+  position: relative;
+  padding: 25px 0;
+}
+
+nav li {
+  display: block;
   font-size: 1.3em;
   margin-right: 35px;
   margin-top: 13px;
+  text-align: left;
 }
 .search-icons {
   justify-content: center;
@@ -390,7 +399,7 @@ footer {
   align-items: flex-start;
   padding: 25px;
 }
-.left-footer{   
+.left-footer {
   margin-bottom: 25px;
 }
 

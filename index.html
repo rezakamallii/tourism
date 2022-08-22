@@ -36,7 +36,7 @@
           </a>
         </div>
         <div class="drop-down-icon d-flex">
-          <a href="#">
+          <a href="#" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
         </div>
@@ -147,7 +147,7 @@
 
     <footer class="row">
       <div class="left-footer">
-        <img src="images/footer_logo.png" alt="erreer">
+        <img src="images/footer_logo.png" alt="erreer" />
         <ul class="footer-info">
           <li>5th flora, 700/D kings road, green</li>
           <li>lane New York-1782</li>
@@ -170,5 +170,16 @@
         </ul>
       </div>
     </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.querySelector("nav").querySelector("ul");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
