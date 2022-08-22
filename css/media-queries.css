@@ -31,12 +31,16 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .nav-logo {
+    flex-direction: row;
+  }
+
   nav ul {
-    display: block!important;
+    display: inline-block !important;
   }
   nav li {
-    display: inline-block !important;
-      margin-right: 35px;
+    /* display: inline-block !important; */
+    margin-right: 35px;
   }
   .drop-down-icon {
     display: none !important;
