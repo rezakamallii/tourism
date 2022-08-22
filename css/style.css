@@ -57,20 +57,24 @@ header {
   position: relative;
 }
 
+.nav-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 35px;
+}
 nav ul {
+  line-height: 25px;
   display: none;
-  /* top: 25px;
-  right: 220px;
-  position: relative;
-  padding: 25px 0; */
+
 }
 
 nav li {
   display: block;
   font-size: 1.3em;
-  margin-right: 35px;
-  margin-top: 13px;
+  margin: 10px 0;
   text-align: left;
+  width: 100%;
 }
 .search-icons {
   justify-content: center;

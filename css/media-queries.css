@@ -32,10 +32,11 @@
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav ul {
-    display: block;
+    display: block!important;
   }
   nav li {
     display: inline-block !important;
+      margin-right: 35px;
   }
   .drop-down-icon {
     display: none !important;
