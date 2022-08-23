@@ -1,12 +1,23 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .icons {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+  }
   .search-icons {
-    width: 45px;
-    position: absolute;
+    width: 60px;
+    height: 60px;
+
+    /* position: absolute;
     right: 45px;
     top: 0;
-    bottom: 0;
+    bottom: 0; */
     background-color: #ff4a52;
+  }
+  .logo {
+    line-height: 120px;
   }
   .search-icons :hover {
     background-color: #f16a71;
@@ -15,13 +26,14 @@
     color: #ffffff;
   }
   .drop-down-icon {
-    width: 45px;
-    position: absolute;
+    width: 60px;
+    height: 60px;
+    /* position: absolute;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 0; */
     background-color: #1ec6b6;
-    z-index: 100;
+    /* z-index: 100; */
   }
 }
 
@@ -31,7 +43,20 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
- 
+  .logo {
+    margin-top: 20px;
+  }
+  .icons {
+    align-items: end;
+    justify-content: center;
+    width: 0;
+  }
+  .search-icons{
+    border-radius: 8px;
+  }
+  .search-icons i {
+    font-size: 20px;
+  }
   .nav-logo {
     flex-direction: row;
   }
@@ -43,13 +68,13 @@
   nav li {
     display: inline-block !important;
     padding-right: 35px;
+    font-size: 18px;
+    font-weight: 350;
   }
   .drop-down-icon {
     display: none !important;
   }
-  .search-icons {
-    right: 0;
-  }
+
   footer {
     flex-direction: row;
     justify-content: space-evenly;
@@ -59,10 +84,16 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   nav ul {
-        padding: 0 250px;
+    padding: 0 110px;
+    margin: 0px 75px;
+  }
+  nav li {
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 50px;
   }
   .search-icons {
-    width: 100px;
+    width: 80px;
   }
   .search-bar {
     flex-direction: row;
