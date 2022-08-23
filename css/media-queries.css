@@ -1,23 +1,25 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  header {
+    padding: 10px 0;
+  }
+
   .icons {
     align-items: end;
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 450px;
+  
   }
   .search-icons {
-    width: 60px;
-    height: 60px;
-
-    /* position: absolute;
-    right: 45px;
-    top: 0;
-    bottom: 0; */
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
     background-color: #ff4a52;
+    margin-bottom: 5px;
   }
   .logo {
-    line-height: 120px;
+    line-height: 20px;
   }
   .search-icons :hover {
     background-color: #f16a71;
@@ -26,14 +28,12 @@
     color: #ffffff;
   }
   .drop-down-icon {
-    width: 60px;
-    height: 60px;
-    /* position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0; */
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+
     background-color: #1ec6b6;
-    /* z-index: 100; */
+   
   }
 }
 
@@ -43,16 +43,18 @@
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .logo {
-    margin-top: 20px;
+    header {
+    padding: 30px 0;
   }
+
   .icons {
     align-items: end;
     justify-content: center;
     width: 0;
   }
-  .search-icons{
+  .search-icons {
     border-radius: 8px;
+    padding: 30px;
   }
   .search-icons i {
     font-size: 20px;
